@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const Skills = () => {
-  const url = 'http://127.0.0.1:8000/skills/';
+  const url = 'https://api-portfolio-hulf.onrender.com/skills/';
   const [skills, setSkills] = useState();
 
   const fetchApi = async () => {

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
-  const url = 'http://127.0.0.1:8000/projects/';
+  const url = 'https://api-portfolio-hulf.onrender.com/projects/';
   const [projects, setProjects] = useState();
 
   const fetchApi = async () => {
