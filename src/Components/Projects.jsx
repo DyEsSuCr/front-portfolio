@@ -34,10 +34,7 @@ const Projects = () => {
                   <img className="rounded-t-2xl" src={project.image} alt={project.name} />
                   <div className="p-6 flex flex-col justify-around">
                     <h1 className="text-3xl font-bold">{project.title}</h1>
-                    <p>
-                      {project.description}: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                      temporibus quos laudantium eveniet.
-                    </p>
+                    <p>{project.description}</p>
                     <div className="mt-[2.5vh] mb-[3vh]">
                       {project.skills.map((skill) => {
                         return (
@@ -64,15 +61,20 @@ const Projects = () => {
                       })}
                     </div>
                     <div className="flex items-center flex-row gap-3">
-                      <a href={project.github} target="_blank">
-                        <button
-                          className="inline-flex justify-center items-center gap-2 relative
+                      {project.github === null ? (
+                        ''
+                      ) : (
+                        <a href={project.github} target="_blank">
+                          <button
+                            className="inline-flex justify-center items-center gap-2 relative
                         rounded-md font-semibold duration-200 h-10 min-w-[2.5rem] text-base bg-blue-500 text-white px-2 hover:bg-blue-600"
-                        >
-                          <FaGithub />
-                          <span className="inline-flex">Github</span>
-                        </button>
-                      </a>
+                          >
+                            <FaGithub />
+                            <span className="inline-flex">Github</span>
+                          </button>
+                        </a>
+                      )}
+
                       {project.demo === null ? (
                         ''
                       ) : (

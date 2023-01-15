@@ -6,11 +6,11 @@ const socials = [
     title: 'email',
     detail: 'sajo2000@gmail.com',
     icons: <MdEmail className="mr-[1.5vw] text-8xl text-bluee" />,
-    url: 'mailto:sajo200@gmail.com',
+    url: 'mailto:sajo2000@gmail.com',
   },
   {
     title: 'linkedin',
-    detail: '@dylansuarez',
+    detail: '@dyessucr',
     icons: <FaLinkedin className="mr-[1.5vw] text-8xl text-bluee" />,
     url: 'https://www.linkedin.com/in/dylansuarez/',
   },
@@ -18,13 +18,13 @@ const socials = [
     title: 'twitter',
     detail: '@dyessucr',
     icons: <FaTwitterSquare className="mr-[1.5vw] text-8xl text-bluee" />,
-    url: 'https://www.linkedin.com/in/dylansuarez/',
+    url: 'https://twitter.com/DyEsSuCr',
   },
   {
     title: 'github',
-    detail: '@dylansuarez',
+    detail: '@dyessucr',
     icons: <FaGithubSquare className="mr-[1.5vw] text-8xl text-bluee" />,
-    url: 'https://www.linkedin.com/in/dylansuarez/',
+    url: 'https://github.com/DyEsSuCr',
   },
 ];
 

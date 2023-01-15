@@ -14,23 +14,20 @@ const About = () => {
           </div>
           <div className="w-[80%] mx-auto lg:w-[50vw] lg:mx-0">
             <p className="text-3xl font-medium text-center lg:text-start">
-              Apacinado por el <span className="text-[#15c0f0]">Desarrollador Web</span> amet consectetur
-              adipisicing elit. Deserunt neque, veritatis dicta nesciunt tenetur exercitationem repudiandae
-              incidunt quaerat eos ratione aut sequi quae laborum fugit, corrupti, aliquid consequatur
-              sapiente ut.
+              Apacinado por el <span className="text-[#15c0f0]">Desarrollador Web</span>
             </p>
           </div>
           <div
             className="text-[2.75rem] text-white flex flex-row duration-300 my-[3.5vh] justify-center
                 lg:justify-start"
           >
-            <a href="#" target="_blank">
+            <a href="https://github.com/DyEsSuCr" target="_blank">
               <FaGithub
                 className="mr-[1.75vh] duration-300 hover:text-bluee hover:scale-125
                 hover:duration-300"
               />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/dylansuarez/" target="_blank">
               <FaLinkedin
                 className="mr-[1.75vh] duration-300 hover:text-bluee hover:scale-125
                 hover:duration-300"
