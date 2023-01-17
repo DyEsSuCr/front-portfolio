@@ -1,18 +1,57 @@
+// projects
+import Portfolio from './../images/projects/portfolio.png';
+
+// Skills
+import Tailwind from './../images/skills/tailwind-logo.png';
+import React from './../images/skills/react-logo.png';
+import Git from './../images/skills/git.png';
+import Npm from './../images/skills/npm-logo.png';
+
 import { useState, useEffect } from 'react';
 import { FaGithub } from 'react-icons/fa';
 
+const api_projects = [
+  {
+    id: 1,
+    image: Portfolio,
+    title: 'Portfolio',
+    description: 'Descripcion porfolio',
+    github: 'https://github.com/DyEsSuCr/front-portfolio',
+    demo: 'https://dyessucr.github.io/front-portfolio/',
+    skills: [
+      {
+        id: crypto.randomUUID(),
+        name: 'Tailwind',
+        logo: Tailwind,
+        url: 'https://tailwindcss.com/',
+      },
+      {
+        id: crypto.randomUUID(),
+        name: 'Git',
+        logo: Git,
+        url: 'https://tailwindcss.com/',
+      },
+      {
+        id: crypto.randomUUID(),
+        name: 'React',
+        logo: React,
+        url: 'https://tailwindcss.com/',
+      },
+      {
+        id: crypto.randomUUID(),
+        name: 'NPM',
+        logo: Npm,
+        url: 'https://tailwindcss.com/',
+      },
+    ],
+  },
+];
+
 const Projects = () => {
-  const url = 'https://api-portfolio-hulf.onrender.com/projects/';
   const [projects, setProjects] = useState();
 
-  const fetchApi = async () => {
-    const response = await fetch(url);
-    const responseJSON = await response.json();
-    setProjects(responseJSON);
-  };
-
   useEffect(() => {
-    fetchApi();
+    setProjects(api_projects);
   }, []);
 
   return (
@@ -31,7 +70,7 @@ const Projects = () => {
                   className="bg-grayy rounded-2xl w-fit duration-300 h-fit hover:duration-300 
                   hover:-translate-y-4 shadow-md shadow-gray-800"
                 >
-                  <img className="rounded-t-2xl" src={project.image} alt={project.name} />
+                  <img className="rounded-t-2xl" src={project.image} alt={project.title} />
                   <div className="p-6 flex flex-col justify-around">
                     <h1 className="text-3xl font-bold">{project.title}</h1>
                     <p>{project.description}</p>
