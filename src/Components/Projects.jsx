@@ -60,7 +60,7 @@ const Projects = () => {
       <p className="text-2xl pt-[1vh] md:text-4xl font-light duration-300">
         Echa un vistazo a mis proyectos:
       </p>
-      <div className="mt-[6vh] grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-[6vh] grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {!projects
           ? 'Cargando...'
           : projects.map((project) => {
