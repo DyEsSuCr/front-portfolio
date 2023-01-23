@@ -1,14 +1,17 @@
 // projects
-import Portfolio from './../images/projects/portfolio.png';
+import Portfolio from './../images/projects/portfolio.png'
+import ApiPortfolio from './../images/projects/api.png'
 
 // Skills
-import Tailwind from './../images/skills/tailwind-logo.png';
-import React from './../images/skills/react-logo.png';
-import Git from './../images/skills/git.png';
-import Npm from './../images/skills/npm-logo.png';
+import Tailwind from './../images/skills/tailwind-logo.png'
+import React from './../images/skills/react-logo.png'
+import Git from './../images/skills/git.png'
+import Npm from './../images/skills/npm-logo.png'
+import RestFramework from './../images/skills/restframework-logo.webp'
+import Django from './../images/skills/django-logo.png'
 
-import { useState, useEffect } from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { useState, useEffect } from 'react'
+import { FaGithub } from 'react-icons/fa'
 
 const api_projects = [
   {
@@ -29,30 +32,58 @@ const api_projects = [
         id: crypto.randomUUID(),
         name: 'Git',
         logo: Git,
-        url: 'https://tailwindcss.com/',
+        url: 'https://git-scm.com/',
       },
       {
         id: crypto.randomUUID(),
         name: 'React',
         logo: React,
-        url: 'https://tailwindcss.com/',
+        url: 'https://es.reactjs.org/',
       },
       {
         id: crypto.randomUUID(),
         name: 'NPM',
         logo: Npm,
-        url: 'https://tailwindcss.com/',
+        url: 'https://www.npmjs.com/',
       },
     ],
   },
-];
+  {
+    id: 2,
+    image: ApiPortfolio,
+    title: 'Api Portfolio',
+    description: 'Descripcion Api porfolio',
+    github: 'https://github.com/DyEsSuCr/api-portfolio',
+    demo: '',
+    skills: [
+      {
+        id: crypto.randomUUID(),
+        name: 'Django',
+        logo: Django,
+        url: 'https://www.djangoproject.com/',
+      },
+      {
+        id: crypto.randomUUID(),
+        name: 'Git',
+        logo: Git,
+        url: 'https://git-scm.com/',
+      },
+      {
+        id: crypto.randomUUID(),
+        name: 'RestFramework',
+        logo: RestFramework,
+        url: 'https://www.django-rest-framework.org/',
+      },
+    ],
+  },
+]
 
 const Projects = () => {
-  const [projects, setProjects] = useState();
+  const [projects, setProjects] = useState()
 
   useEffect(() => {
-    setProjects(api_projects);
-  }, []);
+    setProjects(api_projects)
+  }, [])
 
   return (
     <div className="bg-dark text-white pt-[5vw] px-[5vw] pb-[15vh] h-fit">
@@ -96,11 +127,11 @@ const Projects = () => {
                               <span className="text-[.9rem] overflow-hidden">{skill.name}</span>
                             </span>
                           </a>
-                        );
+                        )
                       })}
                     </div>
                     <div className="flex items-center flex-row gap-3">
-                      {project.github === null ? (
+                      {project.github === '' ? (
                         ''
                       ) : (
                         <a href={project.github} target="_blank">
@@ -114,7 +145,7 @@ const Projects = () => {
                         </a>
                       )}
 
-                      {project.demo === null ? (
+                      {project.demo === '' ? (
                         ''
                       ) : (
                         <a href={project.demo} target="_blank">
@@ -129,11 +160,11 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-              );
+              )
             })}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
