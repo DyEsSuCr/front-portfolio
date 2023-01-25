@@ -1,5 +1,5 @@
-import { FaLinkedin, FaGithub, FaArrowRight } from 'react-icons/fa';
-import avatar from '../assets/avatar.png';
+import { FaLinkedin, FaGithub, FaArrowRight } from 'react-icons/fa'
+import avatar from '../assets/avatar.png'
 
 const About = () => {
   return (
@@ -14,7 +14,10 @@ const About = () => {
           </div>
           <div className="w-[80%] mx-auto lg:w-[50vw] lg:mx-0">
             <p className="text-3xl font-medium text-center lg:text-start">
-              Apacinado por el <span className="text-[#15c0f0]">Desarrollador Web</span>
+              Apasionado por la <span className="text-[#15c0f0]">Desarrollador Web</span>. Estoy
+              contantemente capacitándome, tomando cursos y aprendiendo nuevas tecnologías con el objetivo
+              de ofrecer mi mejor desempeño. puntual, creativo, autodidacta y con muchas ganas de seguir
+              aprendiendo.
             </p>
           </div>
           <div
@@ -56,7 +59,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

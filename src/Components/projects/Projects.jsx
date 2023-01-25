@@ -16,7 +16,7 @@ const api_projects = [
     id: 1,
     image: Portfolio,
     title: 'Portfolio',
-    description: 'Descripcion porfolio',
+    description: 'Portfolio personal',
     github: 'https://github.com/DyEsSuCr/front-portfolio',
     demo: 'https://dyessucr.github.io/front-portfolio/',
     skills: dame('React', 'Tailwind', 'Git', 'NPM'),
@@ -25,7 +25,7 @@ const api_projects = [
     id: 2,
     image: ApiPortfolio,
     title: 'Api Portfolio',
-    description: 'Descripcion Api porfolio',
+    description: 'Api Portfolio para obtener cambios y generar información de currículum',
     github: 'https://github.com/DyEsSuCr/api-portfolio',
     demo: '',
     skills: dame('Django', 'RestFramework', 'Git'),
@@ -37,7 +37,7 @@ const Project = ({ project }) => {
     <div className="bg-grayy rounded-2xl w-fit duration-300 h-fit hover:duration-300 hover:-translate-y-4 shadow-md shadow-gray-800">
       <img className="rounded-t-2xl" src={project.image} alt={project.title} />
       <div className="p-6 flex flex-col justify-around">
-        <h1 className="text-3xl font-bold">{project.title}</h1>
+        <h1 className="text-3xl font-bold pb-2">{project.title}</h1>
         <p>{project.description}</p>
         <div className="mt-[2.5vh] mb-[3vh]">
           {project.skills.map((skill) => {
@@ -51,7 +51,7 @@ const Project = ({ project }) => {
                       alt={skill.name}
                     />
                   </span>
-                  <span className="text-[.9rem] overflow-hidden">{skill.name}</span>
+                  <span className="text-[.9rem] overflow-hidden mr-1">{skill.name}</span>
                 </span>
               </a>
             )
