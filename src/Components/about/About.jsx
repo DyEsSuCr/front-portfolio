@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub, FaArrowRight } from 'react-icons/fa'
-import avatar from '../assets/avatar.png'
+import avatar from './../../assets/avatar.png'
 
 const About = () => {
   return (

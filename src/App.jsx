@@ -1,9 +1,9 @@
 // Local Components
-import About from './Components/About'
+import About from './Components/about/About'
 import Skills from './Components/skills/Skills'
 import Projects from './Components/projects/Projects'
-import Contact from './Components/Contact'
-import Footer from './Components/Footer'
+import Contact from './Components/contact/Contact'
+import Footer from './Components/footer/Footer'
 
 function App() {
   return (
