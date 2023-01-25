@@ -1,5 +1,5 @@
-import { FaLinkedin, FaGithubSquare, FaTwitterSquare } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import { FaLinkedin, FaWhatsappSquare, FaTwitterSquare } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const socials = [
   {
@@ -7,6 +7,12 @@ const socials = [
     detail: 'sajo2000@gmail.com',
     icons: <MdEmail className="mr-[1.5vw] text-8xl text-bluee" />,
     url: 'mailto:sajo2000@gmail.com',
+  },
+  {
+    title: 'Whatsapp',
+    detail: '+57 3013434409',
+    icons: <FaWhatsappSquare className="mr-[1.5vw] text-8xl text-bluee" />,
+    url: 'https://api.whatsapp.com/send?phone=573013434409',
   },
   {
     title: 'linkedin',
@@ -20,13 +26,7 @@ const socials = [
     icons: <FaTwitterSquare className="mr-[1.5vw] text-8xl text-bluee" />,
     url: 'https://twitter.com/DyEsSuCr',
   },
-  {
-    title: 'github',
-    detail: '@dyessucr',
-    icons: <FaGithubSquare className="mr-[1.5vw] text-8xl text-bluee" />,
-    url: 'https://github.com/DyEsSuCr',
-  },
-];
+]
 
 const Contact = () => {
   return (
@@ -50,11 +50,11 @@ const Contact = () => {
                 </div>
               </div>
             </a>
-          );
+          )
         })}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
