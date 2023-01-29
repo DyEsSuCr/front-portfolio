@@ -86,7 +86,6 @@ export const api_skills = [
     url: 'https://www.npmjs.com/',
     logo: NPM,
   },
-
   {
     id: crypto.randomUUID(),
     name: 'Figma',
