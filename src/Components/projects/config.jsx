@@ -6,7 +6,7 @@ import Portfolio from './../../images/projects/portfolio.png'
 import ApiPortfolio from './../../images/projects/api.png'
 import Timers from './../../images/projects/tempo.png'
 
-export function dame(...skillName) {
+function dame(...skillName) {
   const skills = []
 
   skillName.map((name) => {
@@ -20,7 +20,7 @@ export function dame(...skillName) {
 
 export const api_projects = [
   {
-    id: 1,
+    id: crypto.randomUUID(),
     image: Portfolio,
     title: 'Portfolio',
     description: 'Portfolio personal',
@@ -29,7 +29,7 @@ export const api_projects = [
     skills: dame('React', 'Tailwind', 'Git', 'NPM'),
   },
   {
-    id: 2,
+    id: crypto.randomUUID(),
     image: ApiPortfolio,
     title: 'Api Portfolio',
     description: 'Api Portfolio para obtener cambios y generar información de currículum',
@@ -38,10 +38,10 @@ export const api_projects = [
     skills: dame('Django', 'RestFramework', 'Git', 'PostgreSQL'),
   },
   {
-    id: 3,
+    id: crypto.randomUUID(),
     image: Timers,
     title: 'Timers',
-    description: 'Temporizadores usando localstorage',
+    description: 'Temporizadores usando la API local de LocalStorage',
     github: 'https://github.com/DyEsSuCr/react-timers',
     demo: '',
     skills: dame('React', 'NPM', 'Git', 'Tailwind', 'Figma'),

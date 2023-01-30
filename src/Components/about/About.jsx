@@ -15,7 +15,7 @@ const About = () => {
               Soy <span className="text-[#15c0f0]">Dylan</span>
             </h1>
           </div>
-          <div className="w-[80%] mx-auto lg:w-[50vw] lg:mx-0">
+          <div className="w-[80%] mx-auto lg:w-[45vw] lg:mx-0">
             <p className="text-3xl font-medium text-center lg:text-start">
               Apasionado por la <span className="text-[#15c0f0]">Desarrollador Web</span>. Estoy
               contantemente capacitándome, tomando cursos y aprendiendo nuevas tecnologías con el objetivo
