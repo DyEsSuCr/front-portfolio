@@ -25,6 +25,7 @@ const Projects = () => {
           ? 'Cargando...'
           : projects.map((project) => <Project key={project.id} project={project} />)}
       </div>
+      <p className="text-center mt-[10vh] font-normal text-4xl"> . . . mas muy pronto!</p>
     </div>
   )
 }

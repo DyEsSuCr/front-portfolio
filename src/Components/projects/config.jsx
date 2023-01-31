@@ -5,6 +5,7 @@ import { api_skills } from './../skills/config'
 import Portfolio from './../../images/projects/portfolio.png'
 import ApiPortfolio from './../../images/projects/api.png'
 import Timers from './../../images/projects/tempo.png'
+import Turns from './../../images/projects/fast.png'
 
 function dame(...skillName) {
   const skills = []
@@ -36,6 +37,16 @@ export const api_projects = [
     github: 'https://github.com/DyEsSuCr/api-portfolio',
     demo: '',
     skills: dame('Django', 'RestFramework', 'Git', 'PostgreSQL'),
+  },
+  {
+    id: crypto.randomUUID(),
+    image: Turns,
+    title: 'FastAssitance',
+    description:
+      'Un sistema de información que permita agendar un turno, en este caso para un salón de belleza, que permita al cliente escoger el empleado que quiere que lo atienda y una fecha y hora específica para que sea atendido,',
+    github: '',
+    demo: '',
+    skills: dame('Django', 'Git', 'Tailwind', 'HTML', 'CSS', 'MySQL'),
   },
   {
     id: crypto.randomUUID(),
