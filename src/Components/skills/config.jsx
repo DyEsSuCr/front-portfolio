@@ -12,6 +12,7 @@ import React from './../../images/skills/react-logo.png'
 import RestFramework from './../../images/skills/restframework-logo.webp'
 import Sass from './../../images/skills/sass-logo.png'
 import Tailwind from './../../images/skills/tailwind-logo.png'
+import Python from './../../images/skills/python.png'
 
 export const api_skills = [
   {
@@ -37,6 +38,12 @@ export const api_skills = [
     name: 'React',
     url: 'https://es.reactjs.org/',
     logo: React,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Python',
+    url: 'https://www.python.org/',
+    logo: Python,
   },
   {
     id: crypto.randomUUID(),
