@@ -13,6 +13,8 @@ import RestFramework from './../../images/skills/restframework-logo.webp'
 import Sass from './../../images/skills/sass-logo.png'
 import Tailwind from './../../images/skills/tailwind-logo.png'
 import Python from './../../images/skills/python.png'
+import Node from './../../images/skills/node-logo.png'
+import Express from './../../images/skills/express-logo.png'
 
 export const api_skills = [
   {
@@ -26,6 +28,18 @@ export const api_skills = [
     name: 'RestFramework',
     url: 'https://www.django-rest-framework.org/',
     logo: RestFramework,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Node JS',
+    url: 'https://nodejs.org/en/',
+    logo: Node,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Express',
+    url: 'https://expressjs.com/',
+    logo: Express,
   },
   {
     id: crypto.randomUUID(),
