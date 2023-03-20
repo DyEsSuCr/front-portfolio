@@ -15,6 +15,8 @@ import Tailwind from './../../images/skills/tailwind-logo.png'
 import Python from './../../images/skills/python.png'
 import Node from './../../images/skills/node-logo.png'
 import Express from './../../images/skills/express-logo.png'
+import AWS from './../../images/skills/aws-icon.png'
+import Azure from './../../images/skills/azure-icon.png'
 
 export const api_skills = [
   {
@@ -70,6 +72,18 @@ export const api_skills = [
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
     logo: PostgreSQL,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'AWS',
+    url: 'https://aws.amazon.com',
+    logo: AWS,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Azure',
+    url: 'https://azure.microsoft.com',
+    logo: Azure,
   },
   {
     id: crypto.randomUUID(),
