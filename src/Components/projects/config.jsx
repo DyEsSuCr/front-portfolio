@@ -30,7 +30,7 @@ export const projects = [
     id: crypto.randomUUID(),
     image: dyggram,
     title: 'DyGgram',
-    description: 'Clon Instragram, con el sistema de authennticacion 🔐JWT',
+    description: 'Clon Instragram. usando 🔐JWT para el sistema de autenticación de los usuarios',
     github: 'https://github.com/DyEsSuCr/dyggram',
     demo: null,
     skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm')
