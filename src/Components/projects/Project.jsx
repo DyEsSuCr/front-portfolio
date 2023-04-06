@@ -27,7 +27,7 @@ export const Project = ({ project }) => {
           })}
         </div>
         <div className="flex items-center flex-row gap-3">
-          {project.github !== '' && (
+          {project.github && (
             <a href={project.github} target="_blank">
               <button className="inline-flex justify-center items-center gap-2 relative rounded-md font-semibold duration-200 h-10 min-w-[2.5rem] text-base bg-blue-500 text-white px-2 hover:bg-blue-600">
                 <FaGithub />
@@ -36,7 +36,7 @@ export const Project = ({ project }) => {
             </a>
           )}
 
-          {project.demo !== '' && (
+          {project.demo && (
             <a href={project.demo} target="_blank">
               <button className="inline-flex justify-center items-center gap-2 relative rounded-md font-semibold duration-200 h-10 min-w-[2.5rem] text-base bg-gray-400 text-white px-2 hover:bg-gray-500">
                 <span className="inline-flex">Demo</span>

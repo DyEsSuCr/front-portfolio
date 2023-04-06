@@ -1,19 +1,10 @@
-// React
-import { useState, useEffect } from 'react'
-
 // Projects
-import { api_projects } from './config'
+import { projects } from './config'
 
 // Componets
 import { Project } from './Project'
 
 const Projects = () => {
-  const [projects, setProjects] = useState()
-
-  useEffect(() => {
-    setProjects(api_projects)
-  }, [])
-
   return (
     <div className="bg-dark text-white pt-[5vw] px-[5vw] pb-[15vh] h-fit">
       <h3 className="text-5xl sm:text-6xl md:text-7xl font-extrabold duration-300">Projectos</h3>

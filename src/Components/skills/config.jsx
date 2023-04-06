@@ -1,130 +1,143 @@
-// Skills
-import CSS from './../../images/skills/css-logo.webp'
-import Django from './../../images/skills/django-logo.png'
-import Figma from './../../images/skills/figma-logo.png'
-import Git from './../../images/skills/git.png'
-import HTML from './../../images/skills/html-logo.png'
-import JavaScript from './../../images/skills/js-logo.png'
-import MySQL from './../../images/skills/mysql-logo.png'
-import NPM from './../../images/skills/npm-logo.png'
-import PostgreSQL from './../../images/skills/postgresql-logo.png'
-import React from './../../images/skills/react-logo.png'
-import RestFramework from './../../images/skills/restframework-logo.webp'
-import Sass from './../../images/skills/sass-logo.png'
-import Tailwind from './../../images/skills/tailwind-logo.png'
-import Python from './../../images/skills/python.png'
-import Node from './../../images/skills/node-logo.png'
-import Express from './../../images/skills/express-logo.png'
-import AWS from './../../images/skills/aws-icon.png'
-import Azure from './../../images/skills/azure-icon.png'
+import css from '../../images/skills/css-logo.webp'
+import django from '../../images/skills/django-logo.png'
+import figma from '../../images/skills/figma-logo.png'
+import git from '../../images/skills/git.png'
+import html from '../../images/skills/html-logo.png'
+import js from '../../images/skills/js-logo.png'
+import mysql from '../../images/skills/mysql-logo.png'
+import npm from '../../images/skills/npm-logo.png'
+import postgresql from '../../images/skills/postgresql-logo.png'
+import react from '../../images/skills/react-logo.png'
+import restframework from '../../images/skills/restframework-logo.webp'
+import sass from '../../images/skills/sass-logo.png'
+import tailwind from '../../images/skills/tailwind-logo.png'
+import python from '../../images/skills/python.png'
+import node from '../../images/skills/node-logo.png'
+import express from '../../images/skills/express-logo.png'
+import aws from '../../images/skills/aws-icon.png'
+import azure from '../../images/skills/azure-icon.png'
+import astro from '../../images/skills/astro-logo.png'
+import pnpm from '../../images/skills/pnpm-logo.png'
 
-export const api_skills = [
+export const skills = [
   {
     id: crypto.randomUUID(),
     name: 'Django',
     url: 'https://www.djangoproject.com',
-    logo: Django,
+    logo: django
   },
   {
     id: crypto.randomUUID(),
     name: 'RestFramework',
     url: 'https://www.django-rest-framework.org/',
-    logo: RestFramework,
+    logo: restframework
   },
   {
     id: crypto.randomUUID(),
-    name: 'Node JS',
+    name: 'NodeJS',
     url: 'https://nodejs.org/en/',
-    logo: Node,
+    logo: node
   },
   {
     id: crypto.randomUUID(),
     name: 'Express',
     url: 'https://expressjs.com/',
-    logo: Express,
+    logo: express
   },
   {
     id: crypto.randomUUID(),
     name: 'JavaScript',
     url: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
-    logo: JavaScript,
+    logo: js
   },
   {
     id: crypto.randomUUID(),
     name: 'React',
     url: 'https://es.reactjs.org/',
-    logo: React,
+    logo: react
   },
   {
     id: crypto.randomUUID(),
     name: 'Python',
     url: 'https://www.python.org/',
-    logo: Python,
+    logo: python
   },
   {
     id: crypto.randomUUID(),
     name: 'MySQL',
     url: 'https://www.mysql.com/',
-    logo: MySQL,
+    logo: mysql
   },
   {
     id: crypto.randomUUID(),
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
-    logo: PostgreSQL,
+    logo: postgresql
   },
   {
     id: crypto.randomUUID(),
     name: 'AWS',
     url: 'https://aws.amazon.com',
-    logo: AWS,
+    logo: aws
   },
   {
     id: crypto.randomUUID(),
     name: 'Azure',
     url: 'https://azure.microsoft.com',
-    logo: Azure,
+    logo: azure
   },
   {
     id: crypto.randomUUID(),
     name: 'Tailwind',
     url: 'https://tailwindcss.com/',
-    logo: Tailwind,
+    logo: tailwind
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Astro',
+    url: 'https://astro.build/',
+    logo: astro
   },
   {
     id: crypto.randomUUID(),
     name: 'Sass',
     url: 'https://sass-lang.com/',
-    logo: Sass,
+    logo: sass
   },
   {
     id: crypto.randomUUID(),
     name: 'CSS',
     url: 'https://developer.mozilla.org/es/docs/Web/CSS',
-    logo: CSS,
+    logo: css
   },
   {
     id: crypto.randomUUID(),
     name: 'Git',
     url: 'https://git-scm.com/',
-    logo: Git,
+    logo: git
   },
   {
     id: crypto.randomUUID(),
     name: 'HTML',
     url: 'https://developer.mozilla.org/es/docs/Web/HTML',
-    logo: HTML,
+    logo: html
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'pnpm',
+    url: 'https://pnpm.io/',
+    logo: pnpm
   },
   {
     id: crypto.randomUUID(),
     name: 'NPM',
     url: 'https://www.npmjs.com/',
-    logo: NPM,
+    logo: npm
   },
   {
     id: crypto.randomUUID(),
     name: 'Figma',
     url: 'https://www.figma.com/',
-    logo: Figma,
-  },
+    logo: figma
+  }
 ]
