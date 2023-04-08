@@ -5,7 +5,7 @@ import Projects from './Components/projects/Projects'
 import Contact from './Components/contact/Contact'
 import Footer from './Components/footer/Footer'
 
-function App() {
+function App () {
   return (
     <>
       <About />

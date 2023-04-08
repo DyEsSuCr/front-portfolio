@@ -1,7 +1,5 @@
-// Skills
 import { skills as apiSkills } from '../skills/config'
 
-// projects
 import portfolio from '../../images/projects/portfolio.png'
 import apiPortfolio from '../../images/projects/api.png'
 import timers from '../../images/projects/tempo.png'
@@ -19,21 +17,22 @@ function dame (...skillName) {
 export const projects = [
   {
     id: crypto.randomUUID(),
-    image: portfolio,
-    title: 'Portfolio',
-    description: 'Portfolio personal',
-    github: 'https://github.com/DyEsSuCr/front-portfolio',
-    demo: 'https://dyessucr.github.io/front-portfolio/',
-    skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
-  },
-  {
-    id: crypto.randomUUID(),
     image: dyggram,
     title: 'DyGgram',
-    description: 'Clon Instragram. usando 🔐JWT para el sistema de autenticación de los usuarios',
+    description: 'Clon Instragram, con el sistema de authennticacion 🔐JWT',
     github: 'https://github.com/DyEsSuCr/dyggram',
     demo: null,
     skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm')
+  },
+  {
+    id: crypto.randomUUID(),
+    image: fastassistance,
+    title: 'FastAssitance',
+    description:
+      'Un sistema de información que permita agendar un turno, en este caso para un salón de belleza, que permita al cliente escoger el empleado que quiere que lo atienda y una fecha y hora específica para que sea atendido,',
+    github: 'https://github.com/DyEsSuCr/FastAssitance',
+    demo: null,
+    skills: dame('Django', 'Git', 'Tailwind', 'HTML', 'CSS', 'MySQL')
   },
   {
     id: crypto.randomUUID(),
@@ -46,13 +45,12 @@ export const projects = [
   },
   {
     id: crypto.randomUUID(),
-    image: fastassistance,
-    title: 'FastAssitance',
-    description:
-      'Un sistema de información que permita agendar un turno, en este caso para un salón de belleza, que permita al cliente escoger el empleado que quiere que lo atienda y una fecha y hora específica para que sea atendido,',
-    github: 'https://github.com/DyEsSuCr/FastAssitance',
-    demo: null,
-    skills: dame('Django', 'Git', 'Tailwind', 'HTML', 'CSS', 'MySQL')
+    image: portfolio,
+    title: 'Portfolio',
+    description: 'Portfolio personal',
+    github: 'https://github.com/DyEsSuCr/front-portfolio',
+    demo: 'https://dyessucr.github.io/front-portfolio/',
+    skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
   },
   {
     id: crypto.randomUUID(),

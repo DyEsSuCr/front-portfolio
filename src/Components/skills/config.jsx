@@ -18,19 +18,20 @@ import aws from '../../images/skills/aws-icon.png'
 import azure from '../../images/skills/azure-icon.png'
 import astro from '../../images/skills/astro-logo.png'
 import pnpm from '../../images/skills/pnpm-logo.png'
+import jwt from '../../images/skills/jwt.png'
 
 export const skills = [
   {
     id: crypto.randomUUID(),
-    name: 'Django',
-    url: 'https://www.djangoproject.com',
-    logo: django
+    name: 'JavaScript',
+    url: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
+    logo: js
   },
   {
     id: crypto.randomUUID(),
-    name: 'RestFramework',
-    url: 'https://www.django-rest-framework.org/',
-    logo: restframework
+    name: 'React',
+    url: 'https://es.reactjs.org/',
+    logo: react
   },
   {
     id: crypto.randomUUID(),
@@ -46,21 +47,33 @@ export const skills = [
   },
   {
     id: crypto.randomUUID(),
-    name: 'JavaScript',
-    url: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
-    logo: js
+    name: 'JWT',
+    url: 'https://jwt.io/',
+    logo: jwt
   },
   {
     id: crypto.randomUUID(),
-    name: 'React',
-    url: 'https://es.reactjs.org/',
-    logo: react
+    name: 'Astro',
+    url: 'https://astro.build/',
+    logo: astro
   },
   {
     id: crypto.randomUUID(),
     name: 'Python',
     url: 'https://www.python.org/',
     logo: python
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Django',
+    url: 'https://www.djangoproject.com',
+    logo: django
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'RestFramework',
+    url: 'https://www.django-rest-framework.org/',
+    logo: restframework
   },
   {
     id: crypto.randomUUID(),
@@ -73,6 +86,12 @@ export const skills = [
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
     logo: postgresql
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Git',
+    url: 'https://git-scm.com/',
+    logo: git
   },
   {
     id: crypto.randomUUID(),
@@ -94,12 +113,6 @@ export const skills = [
   },
   {
     id: crypto.randomUUID(),
-    name: 'Astro',
-    url: 'https://astro.build/',
-    logo: astro
-  },
-  {
-    id: crypto.randomUUID(),
     name: 'Sass',
     url: 'https://sass-lang.com/',
     logo: sass
@@ -109,12 +122,6 @@ export const skills = [
     name: 'CSS',
     url: 'https://developer.mozilla.org/es/docs/Web/CSS',
     logo: css
-  },
-  {
-    id: crypto.randomUUID(),
-    name: 'Git',
-    url: 'https://git-scm.com/',
-    logo: git
   },
   {
     id: crypto.randomUUID(),
