@@ -38,7 +38,7 @@ export const projects = [
     id: crypto.randomUUID(),
     image: apiPortfolio,
     title: 'Api Portfolio',
-    description: 'Api Portfolio para obtener cambios y generar información de currículum',
+    description: 'La API portafolio ofrece acceso fácil y seguro a información detallada de los proyectos y habilidades.',
     github: 'https://github.com/DyEsSuCr/api-portfolio',
     demo: null,
     skills: dame('Django', 'RestFramework', 'Git', 'PostgreSQL')
