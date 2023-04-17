@@ -47,7 +47,7 @@ export const projects = [
     id: crypto.randomUUID(),
     image: portfolio,
     title: 'Portfolio',
-    description: 'Portfolio personal',
+    description: 'En mi portafolio encontrarás proyectos únicos y atractivos, desde sitios web simples hasta aplicaciones más complejas. Si estás interesado en trabajar conmigo o ver ejemplos de mi trabajo, ¡contáctame!',
     github: 'https://github.com/DyEsSuCr/front-portfolio',
     demo: 'https://dyessucr.github.io/front-portfolio/',
     skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')

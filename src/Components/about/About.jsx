@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className='w-[80%] mx-auto lg:w-[45vw] lg:mx-0'>
             <p className='text-3xl font-medium text-center lg:text-start'>
-              Soy un <span className='text-[#15c0f0]'>desarrollador web</span> apasionado  y comprometido con mi carrera. Siempre busco estar actualizado en las últimas tendencias y tecnologías para brindar soluciones innovadoras y de alta calidad. Soy puntual, creativo y un autodidacta por naturaleza, lo que me permite adaptarme rápidamente a los nuevos proyectos y retos que se me presentan. Además, disfruto de aprender nuevas habilidades y técnicas para mejorar mi desempeño y alcanzar mejores resultados.
+              Soy un <span className='text-[#15c0f0]'>desarrollador web</span> apasionado  y comprometido con mi carrera. Siempre busco estar actualizado en las últimas tendencias y tecnologías para brindar soluciones innovadoras y de alta calidad. Me adapto rápidamente a los nuevos proyectos y retos que se me presentan. Además, disfruto de aprender nuevas habilidades y técnicas para mejorar mi desempeño y alcanzar mejores resultados.
             </p>
           </div>
           <div
