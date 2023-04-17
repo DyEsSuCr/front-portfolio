@@ -19,7 +19,7 @@ export const projects = [
     id: crypto.randomUUID(),
     image: dyggram,
     title: 'DyGgram',
-    description: 'Clon Instragram, con el sistema de authennticacion 🔐JWT',
+    description: 'Un clon de Instagram es una aplicación o sitio web que imita o reproduce las características y funcionalidades de la popular red social Instagram con autenticación JWT 🔒 permite a los usuarios registrarse y acceder a su cuenta de forma segura mediante un token criptográfico. JWT ofrece escalabilidad, flexibilidad y seguridad en la autenticación',
     github: 'https://github.com/DyEsSuCr/dyggram',
     demo: null,
     skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm')
