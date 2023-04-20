@@ -1,1 +1,1 @@
-# En mi portafolio encontrarás proyectos únicos y atractivos, desde sitios web simples hasta aplicaciones más complejas. Si estás interesado en trabajar conmigo o ver ejemplos de mi trabajo, ¡contáctame!
+## En mi portafolio encontrarás proyectos únicos y atractivos, desde sitios web simples hasta aplicaciones más complejas. Si estás interesado en trabajar conmigo o ver ejemplos de mi trabajo, ¡contáctame!
