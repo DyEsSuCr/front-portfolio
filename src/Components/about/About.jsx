@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className='w-[80%] mx-auto lg:w-[45vw] lg:mx-0'>
             <p className='text-3xl font-medium text-center lg:text-start'>
-              Soy un <span className='text-[#15c0f0]'>desarrollador web</span> apasionado y comprometido con la entrega de soluciones innovadoras y de alta calidad. Me adapto rápidamente a nuevos desafíos y busco constantemente mejorar mis habilidades para lograr resultados excepcionales. Valorando el trabajo en equipo, me enfoco en la eficiencia y la colaboración para tener éxito en cada proyecto.
+              Un <span className='text-[#15c0f0]'>desarrollador web</span> apasionado y comprometido con la entrega de soluciones innovadoras y de alta calidad. Me adapto rápidamente a nuevos desafíos y busco constantemente mejorar mis habilidades para lograr resultados excepcionales. Valorando el trabajo en equipo, me enfoco en la eficiencia y la colaboración para tener éxito en cada proyecto.
             </p>
           </div>
           <div
