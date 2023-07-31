@@ -58,7 +58,7 @@ export const projects = [
     title: 'Timers',
     description: 'Temporizadores usando la API local de LocalStorage',
     github: 'https://github.com/DyEsSuCr/react-timers',
-    demo: null,
+    demo: 'https://dyessucr.github.io/react-timers/',
     skills: dame('React', 'NPM', 'Git', 'Tailwind', 'Figma')
   }
 ]
